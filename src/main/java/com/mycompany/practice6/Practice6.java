@@ -40,7 +40,6 @@ public class Practice6 {
         Telephone telephone = new Telephone(manufacturer);
         Seller seller = new Seller();
         seller.modify(telephone);
-        System.out.println("Original Manufacturer: " + manufacturer);
-        System.out.println("Modified Manufacturer: " + telephone.getManufacturer());
+        System.out.println("Original manufacturer: " + manufacturer + ", Modified manufacturer: " + telephone.getManufacturer());
     }
 }
